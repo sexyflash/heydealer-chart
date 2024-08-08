@@ -1,0 +1,408 @@
+{
+  "pricePoints": [
+    {
+      "mileage": 1.0,
+      "price": 22487453
+    },
+    {
+      "mileage": 1.1,
+      "price": 20265853
+    },
+    {
+      "mileage": 1.4,
+      "price": 20526200
+    },
+    {
+      "mileage": 1.9,
+      "price": 21322641
+    },
+    {
+      "mileage": 2.3,
+      "price": 21150088
+    },
+    {
+      "mileage": 2.9,
+      "price": 17921676
+    },
+    {
+      "mileage": 3.1,
+      "price": 20824816
+    },
+    {
+      "mileage": 3.2,
+      "price": 19825696
+    },
+    {
+      "mileage": 3.3,
+      "price": 17613444
+    },
+    {
+      "mileage": 3.6,
+      "price": 20692416
+    },
+    {
+      "mileage": 3.8,
+      "price": 20637658
+    },
+    {
+      "mileage": 3.9,
+      "price": 18803868
+    },
+    {
+      "mileage": 4.0,
+      "price": 20126564
+    },
+    {
+      "mileage": 4.1,
+      "price": 19107413
+    },
+    {
+      "mileage": 4.1,
+      "price": 20696188
+    },
+    {
+      "mileage": 4.2,
+      "price": 19562124
+    },
+    {
+      "mileage": 4.3,
+      "price": 17320541
+    },
+    {
+      "mileage": 4.4,
+      "price": 19395722
+    },
+    {
+      "mileage": 4.8,
+      "price": 19646088
+    },
+    {
+      "mileage": 4.9,
+      "price": 18114266
+    },
+    {
+      "mileage": 5.2,
+      "price": 18847953
+    },
+    {
+      "mileage": 5.4,
+      "price": 20245853
+    },
+    {
+      "mileage": 5.6,
+      "price": 16271128
+    },
+    {
+      "mileage": 5.8,
+      "price": 18028161
+    },
+    {
+      "mileage": 6.1,
+      "price": 18191928
+    },
+    {
+      "mileage": 6.1,
+      "price": 15954892
+    },
+    {
+      "mileage": 6.2,
+      "price": 18754805
+    },
+    {
+      "mileage": 6.5,
+      "price": 17420852
+    },
+    {
+      "mileage": 6.5,
+      "price": 16287830
+    },
+    {
+      "mileage": 6.5,
+      "price": 19214939
+    },
+    {
+      "mileage": 6.6,
+      "price": 16736054
+    },
+    {
+      "mileage": 6.8,
+      "price": 17576510
+    },
+    {
+      "mileage": 7.0,
+      "price": 17078295
+    },
+    {
+      "mileage": 7.1,
+      "price": 16131228
+    },
+    {
+      "mileage": 7.1,
+      "price": 18471152
+    },
+    {
+      "mileage": 7.3,
+      "price": 18498332
+    },
+    {
+      "mileage": 7.9,
+      "price": 15093723
+    },
+    {
+      "mileage": 8.0,
+      "price": 16533563
+    },
+    {
+      "mileage": 8.8,
+      "price": 16501818
+    },
+    {
+      "mileage": 8.9,
+      "price": 15857648
+    },
+    {
+      "mileage": 9.0,
+      "price": 14612481
+    },
+    {
+      "mileage": 9.0,
+      "price": 14700398
+    },
+    {
+      "mileage": 9.1,
+      "price": 14878504
+    },
+    {
+      "mileage": 9.2,
+      "price": 16423202
+    },
+    {
+      "mileage": 9.6,
+      "price": 15285899
+    },
+    {
+      "mileage": 9.9,
+      "price": 16409804
+    },
+    {
+      "mileage": 10.1,
+      "price": 14515493
+    },
+    {
+      "mileage": 10.2,
+      "price": 15081350
+    },
+    {
+      "mileage": 10.3,
+      "price": 14392018
+    },
+    {
+      "mileage": 10.3,
+      "price": 14890085
+    },
+    {
+      "mileage": 10.3,
+      "price": 16647815
+    },
+    {
+      "mileage": 10.4,
+      "price": 16776489
+    },
+    {
+      "mileage": 10.5,
+      "price": 16208390
+    },
+    {
+      "mileage": 10.6,
+      "price": 14971310
+    },
+    {
+      "mileage": 10.9,
+      "price": 16034393
+    },
+    {
+      "mileage": 10.9,
+      "price": 16370903
+    },
+    {
+      "mileage": 11.0,
+      "price": 16997936
+    },
+    {
+      "mileage": 11.0,
+      "price": 15409087
+    },
+    {
+      "mileage": 11.1,
+      "price": 15678415
+    },
+    {
+      "mileage": 11.2,
+      "price": 14034672
+    },
+    {
+      "mileage": 11.3,
+      "price": 14427425
+    },
+    {
+      "mileage": 11.4,
+      "price": 13478546
+    },
+    {
+      "mileage": 11.6,
+      "price": 16791295
+    },
+    {
+      "mileage": 12.0,
+      "price": 15563091
+    },
+    {
+      "mileage": 12.4,
+      "price": 12821150
+    },
+    {
+      "mileage": 12.4,
+      "price": 16632683
+    },
+    {
+      "mileage": 12.5,
+      "price": 14081844
+    },
+    {
+      "mileage": 12.9,
+      "price": 13647666
+    },
+    {
+      "mileage": 13.5,
+      "price": 15312745
+    },
+    {
+      "mileage": 14.1,
+      "price": 13781990
+    },
+    {
+      "mileage": 14.4,
+      "price": 15361455
+    },
+    {
+      "mileage": 14.6,
+      "price": 12000000
+    },
+    {
+      "mileage": 14.7,
+      "price": 12222689
+    },
+    {
+      "mileage": 14.9,
+      "price": 12649126
+    },
+    {
+      "mileage": 15.4,
+      "price": 12000000
+    },
+    {
+      "mileage": 15.6,
+      "price": 12389030
+    },
+    {
+      "mileage": 15.8,
+      "price": 12000000
+    },
+    {
+      "mileage": 16.0,
+      "price": 14170585
+    },
+    {
+      "mileage": 16.3,
+      "price": 12000000
+    },
+    {
+      "mileage": 16.4,
+      "price": 12000000
+    },
+    {
+      "mileage": 16.7,
+      "price": 14337591
+    },
+    {
+      "mileage": 16.7,
+      "price": 13016466
+    },
+    {
+      "mileage": 16.9,
+      "price": 12913347
+    },
+    {
+      "mileage": 17.0,
+      "price": 12000000
+    },
+    {
+      "mileage": 17.3,
+      "price": 12000000
+    },
+    {
+      "mileage": 17.3,
+      "price": 12000000
+    },
+    {
+      "mileage": 17.4,
+      "price": 12000000
+    },
+    {
+      "mileage": 17.5,
+      "price": 12000000
+    },
+    {
+      "mileage": 17.7,
+      "price": 12533954
+    },
+    {
+      "mileage": 17.7,
+      "price": 13104168
+    },
+    {
+      "mileage": 17.8,
+      "price": 13127390
+    },
+    {
+      "mileage": 17.8,
+      "price": 12000000
+    },
+    {
+      "mileage": 18.1,
+      "price": 12000000
+    },
+    {
+      "mileage": 18.4,
+      "price": 13079724
+    },
+    {
+      "mileage": 18.6,
+      "price": 13092208
+    },
+    {
+      "mileage": 19.0,
+      "price": 12000000
+    },
+    {
+      "mileage": 19.2,
+      "price": 12145414
+    },
+    {
+      "mileage": 19.3,
+      "price": 12000000
+    },
+    {
+      "mileage": 19.5,
+      "price": 12207189
+    },
+    {
+      "mileage": 19.9,
+      "price": 12379279
+    }
+  ],
+  "currentPoint": {
+    "mileage": 4.9,
+    "price": 18114266
+  }
+}

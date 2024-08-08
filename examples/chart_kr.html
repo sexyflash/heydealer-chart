@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeyDealer Price Chart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div id="chart-container"></div>
+    <script src="chart.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            new PriceChart({
+                containerId: 'chart-container',
+                config: {
+                    title: '내차 예상시세',
+                    modelName: '2014년형 4WD KV300',
+                    yAxisUnit: '만원',
+                    xAxisUnit: '만km',
+                    minPrice: 1200,
+                    maxPrice: 2100,
+                    minMileage: 1,
+                    maxMileage: 24,
+                    mileageSteps: [0, 5, 10, 15, 20, 25],
+                    yAxisFormat: value => `${Math.floor(value / 10000)}`,
+                    xAxisFormat: value => value === 0 ? '0' : `${value}`,
+                    tooltipPriceFormat: value => `${Math.floor(value / 10000)}`,
+                    tooltipMileageFormat: value => value.toFixed(1),
+                    rangeFormat: (min, max) => `${Math.floor(min / 10000)} ~ ${Math.ceil(max / 10000)}`
+                }
+            });
+        });
+    </script>
+</body>
+</html>

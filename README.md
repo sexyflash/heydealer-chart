@@ -4,6 +4,15 @@
 
 The HeyDealer Price Chart is a sophisticated, highly customizable, and responsive chart solution for visualizing vehicle price trends. Inspired by the HeyDealer app, this chart is implemented in pure JavaScript and can be seamlessly integrated into various web applications. Whether you're building a car dealership website, a vehicle valuation tool, or any application that requires visualization of price data over time or mileage, the HeyDealer Price Chart offers a powerful and flexible solution.
 
+![HeyDealer Price Chart Demo](demo.gif)
+
+Check out the live demo pages:
+- [Korean Chart](https://encar.s3.ap-northeast-2.amazonaws.com/public/chart/demo/chart_kr.html)
+- [English Chart](https://encar.s3.ap-northeast-2.amazonaws.com/public/chart/demo/chart_en.html)
+- [Japanese Chart](https://encar.s3.ap-northeast-2.amazonaws.com/public/chart/demo/chart_jp.html)
+
+
+
 ## Features
 
 - **Responsive Design**: Adapts fluidly to different screen sizes and devices, ensuring a consistent user experience across desktops, tablets, and mobile phones.

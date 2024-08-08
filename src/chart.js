@@ -83,7 +83,7 @@ class PriceChart {
      */
     async loadData() {
         try {
-            const response = await fetch('data.json');
+            const response = await fetch('./../data/sample_data.json');
             const data = await response.json();
             console.log('Loaded data:', data);
             return data;
@@ -568,7 +568,7 @@ class PriceChart {
      */
     async loadSpotSVG() {
         try {
-            const response = await fetch('spot.svg');
+            const response = await fetch('./../src/spot.svg');
             const svgContent = await response.text();
             const parser = new DOMParser();
             const svgDoc = parser.parseFromString(svgContent, 'image/svg+xml');

@@ -11,8 +11,6 @@ Check out the live demo pages:
 - [English Chart](https://encar.s3.ap-northeast-2.amazonaws.com/public/chart/demo/chart_en.html)
 - [Japanese Chart](https://encar.s3.ap-northeast-2.amazonaws.com/public/chart/demo/chart_jp.html)
 
-
-
 ## Features
 
 - **Responsive Design**: Adapts fluidly to different screen sizes and devices, ensuring a consistent user experience across desktops, tablets, and mobile phones.
@@ -26,16 +24,21 @@ Check out the live demo pages:
 
 ## Installation
 
-1. Clone this repository or download the source files:
+1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/heydealer-price-chart.git
+   git clone https://github.com/sexyflash/heydealer-price-chart.git
    ```
 
-2. Include the necessary files in your project:
+2. Navigate to the project directory:
+   ```
+   cd heydealer-price-chart
+   ```
+
+3. Include the necessary files in your HTML:
    ```html
-   <link rel="stylesheet" href="path/to/styles.css">
+   <link rel="stylesheet" href="src/styles.css">
    <script src="https://d3js.org/d3.v7.min.js"></script>
-   <script src="path/to/chart.js"></script>
+   <script src="src/chart.js"></script>
    ```
 
    Note: This project requires D3.js (version 7 or later) for certain calculations and visualizations.
@@ -71,8 +74,8 @@ The `PriceChart` constructor accepts a configuration object with the following p
 | `xAxisUnit` | string | 'k mi' | Unit for X-axis (mileage) |
 | `minPrice` | number | 1200 | Minimum price value |
 | `maxPrice` | number | 2100 | Maximum price value |
-| `minMileage` | number | 1 | Minimum mileage value |
-| `maxMileage` | number | 24 | Maximum mileage value |
+| `minMileage` | number | 2 | Minimum mileage value |
+| `maxMileage` | number | 25 | Maximum mileage value |
 | `mileageSteps` | array | [0, 5, 10, 15, 20, 25] | Mileage steps for X-axis |
 | `yAxisFormat` | function | `value => \`${Math.floor(value / 1000)}\`` | Y-axis label format function |
 | `xAxisFormat` | function | `value => value === 0 ? '0' : \`${value}\`` | X-axis label format function |
@@ -80,11 +83,29 @@ The `PriceChart` constructor accepts a configuration object with the following p
 | `tooltipMileageFormat` | function | `value => value.toFixed(1)` | Tooltip mileage format function |
 | `rangeFormat` | function | `(min, max) => \`${Math.floor(min / 1000)} ~ ${Math.ceil(max / 1000)}\`` | Price range format function |
 
+## Project Structure
+
+```
+heydealer-price-chart/
+├── src/
+│   ├── chart.js
+│   ├── styles.css
+│   └── spot.svg
+├── examples/
+│   ├── chart_kr.html
+│   ├── chart_en.html
+│   └── chart_jp.html
+├── data/
+│   └── sample_data.json
+├── README.md
+└── LICENSE
+```
+
 ## Advanced Customization
 
 ### Styling
 
-The appearance of the chart can be extensively customized by modifying the `styles.css` file or overriding styles in your own CSS. Here are some examples:
+The appearance of the chart can be extensively customized by modifying the `src/styles.css` file or overriding styles in your own CSS. Here are some examples:
 
 ```css
 /* Customizing the chart title */
@@ -163,7 +184,7 @@ The chart expects data in the following JSON format:
 }
 ```
 
-This data can be loaded from a JSON file or generated dynamically. The `pricePoints` array contains all the data points to be plotted on the chart, while the `currentPoint` object represents the specific point to be highlighted (e.g., the user's current vehicle).
+This data can be loaded from a JSON file (e.g., `data/sample_data.json`) or generated dynamically.
 
 ## Performance Considerations
 
@@ -207,6 +228,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you encounter any issues or have questions about using the HeyDealer Price Chart, please open an issue on the GitHub repository. We'll do our best to provide timely support and address any concerns.
+If you encounter any issues or have questions about using the HeyDealer Price Chart, please open an issue on the [GitHub repository](https://github.com/sexyflash/heydealer-price-chart/issues). We'll do our best to provide timely support and address any concerns.
 
 Thank you for using the HeyDealer Price Chart! We hope it proves to be a valuable tool for your projects.

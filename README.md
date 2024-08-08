@@ -7,9 +7,9 @@ The HeyDealer Price Chart is a sophisticated, highly customizable, and responsiv
 ![HeyDealer Price Chart Demo](demo.gif)
 
 Check out the live demo pages:
-- [Korean Chart](https://encar.s3.ap-northeast-2.amazonaws.com/public/chart/demo/chart_kr.html)
-- [English Chart](https://encar.s3.ap-northeast-2.amazonaws.com/public/chart/demo/chart_en.html)
-- [Japanese Chart](https://encar.s3.ap-northeast-2.amazonaws.com/public/chart/demo/chart_jp.html)
+- [Korean Chart](https://encar.s3.ap-northeast-2.amazonaws.com/public/chart/demo/examples/chart_kr.html)
+- [English Chart](https://encar.s3.ap-northeast-2.amazonaws.com/public/chart/demo/examples/chart_en.html)
+- [Japanese Chart](https://encar.s3.ap-northeast-2.amazonaws.com/public/chart/demo/examples/chart_jp.html)
 
 ## Features
 
